@@ -6,6 +6,8 @@
   - require('fs')の対応が必要　
     - 今回は**nodeIntegration: true**を指定することで対応
 
+![figure](image.gif)
+
 ## 開発環境
 
 - Windows 10
