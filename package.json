@@ -1,0 +1,16 @@
+{
+  "name": "sample-dad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "export": "electron-packager . SampleDaD --platform=win32 --arch=x64 --overwrite --electron-version=5.0.0"
+  },
+  "author": "@cocomoff",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "requirejs": "^2.3.6"
+  }
+}
